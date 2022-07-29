@@ -5,7 +5,7 @@
 
 :root {
     --blue-color: rgb(0, 132, 255);
-    --grey-color: rgb(212, 222, 228);
+    --grey-color: rgb(227, 234, 238);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -20,11 +20,60 @@ body {
 }
 
 .header-r1 {
+    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+}
+
+#search {
+    width: 80%;
+    height: 20px;
+    margin-left: 20px;
+    background-color: var(--grey-color);
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.profile-box {
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    font-weight: 800;
 }
 
 .header-r2 {
+    margin-left: 20px;
+    margin-top: 30px;;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header-r2-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-text {
+}
+
+.header-text-sub {
+    font-size: 14px;
+}
+
+.header-r2-button-box {
+    margin-right: 40px;
+    display: flex;
+    gap: 30px;
 }
 
 
@@ -102,6 +151,17 @@ ul {
 
 li {
     margin-bottom: 18px;
+}
+
+button {
+    color: white;
+    background-color: var(--blue-color);
+    width: 100px;
+    height: 38px;
+    border-color: transparent;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .filter-white {
